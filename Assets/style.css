@@ -1,0 +1,171 @@
+*       {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header      {
+    
+    padding: 25px 0px 25px;
+    font-size: 40px;
+    background: linear-gradient(to top left, #14FFEC 25%, #0D7377 75% );
+    color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+}
+
+body    {
+    background-color: #0f0f0f;
+}
+
+nav   {
+    background-color: #323232;
+    font-size: 25px;
+    color: #c0c0c0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul {
+    list-style-type: none ;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    display: flex;
+}
+
+nav a  {
+    text-decoration: none;
+    color: #c0c0c0;
+    border-top: solid #0f0f0f;
+    border-bottom: solid #0f0f0f;
+    padding: 8px;
+    border-radius: 20px;
+    display: flex;
+}
+
+nav a:hover {
+    color: #0D7377;
+    border-color: #0D7377;
+}
+
+h2      {
+    font-size: 35px;
+    color: #0D7377;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.p-aboutme{
+    margin-left: 30px;
+    font-size: 25px;
+    color: #c0c0c0;
+    margin-right: 30px;
+    display: flex;
+}
+
+img.trumpet {
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border: solid 3px #0D7377;
+    border-radius: 10px;
+    
+    
+
+}
+
+img.backpack{
+    height: auto;
+    width: 300px;
+    float: left;
+    display: flex;
+    margin: 30px;
+    border: solid 3px #0D7377;
+    border-radius: 10px;
+    
+
+    
+}
+
+section#mywork      {
+    max-width: 100%;
+    
+
+}
+
+h2.mywork  {
+    margin-top: 150px;
+     
+}
+
+div.gallery  {
+    border: solid 1px #0f0f0f;
+    float: left;
+    width:250px;
+    margin: 30px;
+    
+}
+
+div.gallery:hover   {
+    box-shadow: 1px 1px 8px 7px  #0D7377;
+}
+
+div.gallery img   {
+    width: 100%;
+    height: 200px;
+    
+}
+
+div.desc    {
+    color: #c0c0c0;
+    text-align: center;
+    padding: 12px;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+footer  {
+    float: left;
+    text-align: center;
+    border-top: dashed 2px #0D7377;
+
+}
+
+footer h2 {
+    color: #0D7377;
+    margin: 15px;
+    
+}
+
+footer form {
+    margin: 30px;
+    color: #c0c0c0;
+    font-size: 25px;
+}
+
+footer p {
+    color: #0f0f0f;
+}
+
+input {
+    margin: 10px;
+}
+
+input.submit:hover {
+    background-color: #0D7377;
+    color: #c0c0c0;
+}
+
+
+
+
+
+
+
